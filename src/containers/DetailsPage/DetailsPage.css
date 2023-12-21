@@ -1,0 +1,35 @@
+
+.poster-image {
+  width: 100%; 
+  height: 500px;
+  max-width: 100%;
+  display: block; 
+  margin: 20px auto; 
+  border-radius: 20px;
+}
+.movie-details-box {
+  background-color: rgba(240, 240, 240, 0.7);
+  border-radius: 20px;
+  padding: 16px; /* Puedes ajustar el espacio interno según sea necesario */
+  padding-left: 16px; /* Puedes ajustar el espacio interno según sea necesario */
+  padding-right: 16px; /* Puedes ajustar el espacio interno según sea necesario */
+  margin-top: 16px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 800px; /* Ancho máximo para el contenedor */
+}
+
+.movie-details-box:focus-within {
+  background-color: rgba(240, 240, 240, 0.9); 
+}
+
+/* DetailsPage.css */
+
+/* DetailsPage.css */
+
+.button-container {
+display: flex;
+justify-content: center; /* Centrar horizontalmente en la misma fila */
+gap: 10px; /* Ajusta el valor de acuerdo al espacio que desees entre los botones */
+margin-top: 20px; /* Ajusta el margen superior según sea necesario */
+}

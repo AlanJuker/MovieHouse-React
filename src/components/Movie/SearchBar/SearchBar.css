@@ -1,0 +1,8 @@
+.search-bar-paper {
+    padding: 2px 4px;
+    display: flex;
+    align-items: center;
+    width: 100%; /* Cambia el ancho a 100% para ocupar todo el ancho de la fila */
+    border-radius: 10px; /* Ajusta el valor según sea necesario */
+  }
+  

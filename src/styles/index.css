@@ -1,0 +1,13 @@
+body {
+  margin: 0;
+  font-family: 'Spartan', sans-serif !important;
+  font-weight: 700 !important; /* Puedes ajustar este valor según tus preferencias */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: 'Spartan', sans-serif !important;
+  font-weight: 700 !important; /* Puedes ajustar este valor según tus preferencias */
+
+}

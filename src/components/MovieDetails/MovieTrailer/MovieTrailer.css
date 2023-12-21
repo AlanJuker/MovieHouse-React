@@ -1,0 +1,14 @@
+/* MovieTrailer.css */
+.movie-trailer-container {
+    margin-top: 16px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .movie-trailer-wrapper {
+    width: 70%; 
+    max-width: 500px;
+    border-radius: 20px;
+    overflow: hidden;
+  }
+  

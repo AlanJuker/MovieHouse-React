@@ -1,0 +1,38 @@
+.movie-card {
+  position: relative;
+  overflow: hidden;
+}
+
+.MuiPaper-root.MuiCard-root {
+  border-radius: 20px;
+}
+
+.movie-image {
+  width: 100%;
+  overflow: hidden;
+}
+
+.movie-title {
+  text-align: center;
+}
+
+.movie-image img {
+  width: 100%;
+  height: 400px;
+  transition: transform 0.3s ease;
+}
+
+.movie-card:hover .movie-image img {
+  transform: scale(1.3);
+  cursor: pointer;
+}
+
+.movie-card:hover+.movie-title {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.movie-title:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}

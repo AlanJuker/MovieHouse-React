@@ -1,0 +1,22 @@
+/* En App.css */
+*{
+  margin: 0;
+  font-family: 'Spartan', sans-serif;
+  font-weight: bold;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: #f0f0f0;
+}
+
+main {
+  flex: 1;
+  background-color: #b0b0b0;
+  padding-top: 30px;
+  padding-left: 200px;
+  padding-right: 200px;
+  padding-bottom: 60px;
+}
