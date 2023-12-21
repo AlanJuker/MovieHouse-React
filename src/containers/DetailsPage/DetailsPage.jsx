@@ -50,12 +50,11 @@ const DetailsPage = () => {
       cancelButtonText: 'Cancel',
     });
 
-    // Si el usuario hace clic en "Alquilar", proceder con el alquiler
     if (days) {
       addToRental({
         ...selectedMovie,
         days: parseInt(days, 10),
-        price: selectedMovie.rentPrice, // Utilizar rentPrice en lugar de un valor fijo
+        price: selectedMovie.rentPrice, 
       });
 
       Swal.fire({

@@ -1,6 +1,5 @@
-/* En Header.css */
 .header-container {
-    background: #333; /* Ajusta el color de fondo según tus preferencias */
+    background: #333; 
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -13,5 +12,5 @@
     margin-left: 20px;
   }
   
-  /* ... Otros estilos ... */
+
   

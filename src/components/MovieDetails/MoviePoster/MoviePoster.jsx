@@ -1,4 +1,3 @@
-// MoviePoster.jsx
 import React from 'react';
 
 const MoviePoster = ({ imageUrl, alt }) => {

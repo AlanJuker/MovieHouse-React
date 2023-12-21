@@ -15,7 +15,7 @@ import AddIcon from '@mui/icons-material/Add';
 import RemoveIcon from '@mui/icons-material/Remove';
 import Swal from 'sweetalert2';
 import 'sweetalert2/dist/sweetalert2.min.css';
-import './TransactionPage.css'; // Importa el archivo de estilos
+import './TransactionPage.css'; 
 
 const TransactionPage = () => {
   const { cartItems, addToCart, removeFromCart, adjustQuantity } = useCartItems();
@@ -66,7 +66,7 @@ const TransactionPage = () => {
 
   const calculateTotal = () => {
     const subtotal = calculateSubtotal();
-    return subtotal * 1.12; // Total con un 12% de impuestos
+    return subtotal * 1.12; 
   };
 
   return (

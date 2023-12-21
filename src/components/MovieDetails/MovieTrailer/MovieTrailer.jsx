@@ -1,7 +1,6 @@
-// MovieTrailer.jsx
 import React from 'react';
 import YouTube from 'react-youtube';
-import './MovieTrailer.css'; // Importa tu archivo CSS
+import './MovieTrailer.css'; 
 
 const MovieTrailer = ({ trailer }) => {
   return (

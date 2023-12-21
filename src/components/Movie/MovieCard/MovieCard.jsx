@@ -7,13 +7,11 @@ const MovieCard = ({ pelicula }) => {
   const navigate = useNavigate();
 
   const redirectToDetailsPage = () => {
-    // Redirige a la página de detalles con el ID de la película
     navigate(`/Details/${pelicula.id}`);
   };
 
   return (
     <Grid item xs={12} sm={6} md={4} lg={3} onClick={redirectToDetailsPage}>
-      {/* Utiliza el componente Link para redirigir */}
       <Link to={`/details/${pelicula.id}`}>
         <Card className="movie-card" >
           <div className="movie-image">

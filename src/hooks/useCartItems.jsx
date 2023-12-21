@@ -31,16 +31,13 @@ const useCartItems = () => {
       const updatedCart = [...cartItems];
       updatedCart[existingItemIndex].quantity -= 1;
 
-      // Verificar si la cantidad es menor que 0
       if (updatedCart[existingItemIndex].quantity < 1) {
-        // Mostrar alerta con SweetAlert
         Swal.fire({
           icon: 'error',
           title: 'Quantity not allowed',
           text: 'Quantity cannot be less than 1.',
         });
 
-        // Restaurar la cantidad a 0
         updatedCart[existingItemIndex].quantity = 1;
       }
 

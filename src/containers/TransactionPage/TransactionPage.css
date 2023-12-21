@@ -6,7 +6,6 @@
     margin-top: 8px;
   }
   
-  /* Aumenta la especificidad */
   .card .card-title {
     font-weight: bold;
     margin: 16px 8px 0 10px;

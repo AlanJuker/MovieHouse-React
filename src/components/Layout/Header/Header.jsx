@@ -1,10 +1,9 @@
-// En src/Header.js
 import React from 'react';
 import { AppBar, Toolbar, Typography, IconButton, List, ListItem, ListItemText } from '@mui/material';
 import AccountCircleIcon from '@mui/icons-material/AccountCircle';
 import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
 import { Link } from 'react-router-dom'; 
-import './Header.css'; // Importa el archivo de estilos
+import './Header.css'; 
 
 const Header = () => {
   return (

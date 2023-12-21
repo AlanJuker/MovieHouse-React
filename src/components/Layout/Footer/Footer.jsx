@@ -1,6 +1,6 @@
 import React from 'react';
 import { Container, Typography } from '@mui/material';
-import './Footer.css'; // Importa el archivo de estilos
+import './Footer.css'; 
 
 const Footer = () => {
   return (

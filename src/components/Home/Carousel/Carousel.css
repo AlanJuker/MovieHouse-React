@@ -1,4 +1,3 @@
-/* Agrega estos estilos a tu archivo Carousel.css */
 .custom-next-arrow,
 .custom-prev-arrow {
   position: absolute;
@@ -19,27 +18,23 @@
   left: 10px;
 }
 
-/* ... (otros estilos) */
-
 .custom-next-arrow,
 .custom-prev-arrow {
-  font-size: 0; /* Oculta el texto */
+  font-size: 0; 
   background-color: transparent;
 
 }
 
 .custom-next-arrow span,
 .custom-prev-arrow span {
-  display: none; /* Asegura que el texto esté oculto */
+  display: none;
   background-color: transparent;
 }
 
-/* En Carousel.css */
 .carousel-image {
-  width: 100%; /* Hace que la imagen ocupe el 100% del ancho de su contenedor */
-  height: auto; /* Mantiene la proporción original de la imagen */
+  width: 100%; 
+  height: auto;
   border-radius: 20px;
 
 }
 
-/* ... (otros estilos) */

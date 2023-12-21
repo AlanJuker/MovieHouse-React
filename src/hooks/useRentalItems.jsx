@@ -31,16 +31,13 @@ const useRentalItems = () => {
       const updatedRental = [...rentalItems];
       updatedRental[existingItemIndex].days -= 1;
 
-      // Verificar si la cantidad de días es menor que 0
       if (updatedRental[existingItemIndex].days < 1) {
-        // Mostrar alerta con SweetAlert
         Swal.fire({
           icon: 'error',
           title: 'Days not allowed',
           text: 'Days cannot be less than 1.',
         });
 
-        // Restaurar los días a 0
         updatedRental[existingItemIndex].days = 1;
       }
 
